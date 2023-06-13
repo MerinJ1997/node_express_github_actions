@@ -14,6 +14,7 @@ app.get('/', function (req, res) {
     res.send("<h1>Home Page</h1>")
 })
 
+//http://localhost:3000/name
 app.get('/name', function (req, res) {
   res.send("<h1>Home Page</h1>")
 })
